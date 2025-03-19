@@ -41,6 +41,14 @@
       "linter": "eslint",
       "style": "css",
       "unitTestRunner": "vitest"
+    },
+    "@nx/angular:component": {
+      "linter": "eslint",
+      "style": "css",
+      "unitTestRunner": "vitest",
+      "changeDetection": "OnPush",
+      "inlineStyle": true,
+      "inlineTemplate": true
     }
   },
   "defaultProject": "clean-archi-demo"
