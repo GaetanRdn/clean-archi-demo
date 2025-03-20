@@ -6,5 +6,5 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   template: `<h1>{{ title }}</h1>`,
 })
 export class AppComponent {
-  title = 'clean-archi-demo';
+  title = 'Task list';
 }
