@@ -1,12 +1,9 @@
-import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  imports: [NxWelcomeComponent, RouterModule],
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<h1>{{ title }}</h1>`,
 })
 export class AppComponent {
   title = 'clean-archi-demo';
